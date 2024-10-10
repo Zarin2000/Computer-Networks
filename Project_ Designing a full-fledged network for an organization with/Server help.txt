@@ -1,0 +1,49 @@
+Campus1
+------------
+interface Fa1/0
+ip helper-address 142.10.0.50
+do wr
+no shut
+exit
+Campus2
+------------
+interface Fa0/0
+ip helper-address 142.10.0.50
+do wr
+no shut
+exit
+Campus3
+------------
+interface Fa0/0
+ip helper-address 142.10.0.50
+do wr
+no shut
+exit
+Campus4
+------------
+interface Fa0/0
+ip helper-address 142.10.0.50
+do wr
+no shut
+exit
+Campus5
+------------
+interface Fa1/0
+ip helper-address 142.10.0.50
+do wr
+no shut
+exit
+Campus6
+------------
+interface Fa0/0
+ip helper-address 142.10.0.50
+do wr
+no shut
+exit
+Campus7
+------------
+interface Fa0/0
+ip helper-address 142.10.0.50
+do wr
+no shut
+exit

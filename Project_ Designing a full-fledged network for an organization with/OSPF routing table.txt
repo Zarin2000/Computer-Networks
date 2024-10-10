@@ -1,0 +1,63 @@
+Ospf
+---------
+Campus 1
+------------
+router ospf  1
+network 107.0.0.0 0.255.255.255 area 1
+network 194.168.10.0 0.0.0.255 area 1
+network 194.168.20.0 0.0.0.255 area 1
+network 194.168.30.0 0.0.0.255 area 1
+exit
+
+Campus 2
+------------
+router ospf  2
+network 111.0.0.0 0.255.255.255 area 1
+network 194.168.10.0 0.0.0.255 area 1
+network 194.168.40.0 0.0.0.255 area 1
+network 194.168.60.0 0.0.0.255 area 1
+exit
+
+Campus 3
+------------
+router ospf  3
+network 113.0.0.0 0.255.255.255 area 1
+network 194.168.60.0 0.0.0.255 area 1
+network 194.168.70.0 0.0.0.255 area 1
+exit
+
+Campus 4
+------------
+router ospf  4
+network 152.10.0.0 0.0.255.255 area 1
+network 194.168.80.0 0.0.0.255 area 1
+network 194.168.90.0 0.0.0.255 area 1
+exit
+
+Campus 5
+------------
+router ospf  5
+network 172.10.0.0 0.0.255.255 area 1
+network 194.168.30.0 0.0.0.255 area 1
+network 194.168.50.0 0.0.0.255 area 1
+network 194.168.90.0 0.0.0.255 area 1
+exit
+
+Campus 6
+------------
+router ospf  6
+network 142.10.0.0 0.0.255.255 area 1
+network 194.168.100.0 0.0.0.255 area 1
+exit
+
+Campus 7
+------------
+router ospf  7
+network 132.10.0.0 0.0.255.255 area 1
+network 194.168.20.0 0.0.0.255 area 1
+network 194.168.40.0 0.0.0.255 area 1
+network 194.168.50.0 0.0.0.255 area 1
+network 194.168.70.0 0.0.0.255 area 1
+network 194.168.80.0 0.0.0.255 area 1
+network 194.168.100.0 0.0.0.255 area 1
+exit
